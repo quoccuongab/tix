@@ -1,0 +1,110 @@
+.wrapper {
+  width: 100%;
+}
+.wrapper .content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.wrapper .content .seatcheckout {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+}
+.wrapper .content .seatcheckout .header {
+  background-color: aqua;
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  padding: 0 50px;
+  align-items: center;
+  height: 100px;
+  box-shadow: 2px 2px 18px #888888;
+}
+.wrapper .content .seatcheckout .header .choice {
+  color: red;
+  flex: 1;
+  justify-content: center;
+}
+.wrapper .content .seatcheckout .header .result {
+  flex: 1;
+}
+.wrapper .content .seatcheckout .header .avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  flex: 2;
+  text-align: right;
+}
+.wrapper .content .seatcheckout .seat {
+  display: flex;
+  height: 90%;
+  width: 100%;
+}
+.wrapper .content .seatcheckout .seat .left {
+  background-color: #80808d;
+  flex: 1;
+}
+.wrapper .content .seatcheckout .seat .right {
+  display: flex;
+  flex-direction: column;
+  flex: 9;
+  padding: 50px 200px;
+}
+.wrapper .content .seatcheckout .seat .right .top {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.wrapper .content .seatcheckout .seat .right .main {
+  display: flex;
+  justify-content: center;
+}
+.wrapper .content .pay {
+  display: flex;
+  flex: 1;
+  box-shadow: 2px 2px 18px #888888;
+}
+.wrapper .content .pay .pay-content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+  width: 100%;
+  align-content: space-between;
+}
+.wrapper .content .pay .pay-content .form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 70%;
+}
+.wrapper .content .pay .pay-content .buy {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+}
+.wrapper .content .pay .pay-content .buy .button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.wrapper .content .pay .pay-content .buy .button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+}
+.wrapper .content .pay .pay-content .buy .button1:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+/*# sourceMappingURL=output.css.map */
