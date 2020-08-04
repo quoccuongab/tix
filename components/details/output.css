@@ -60,14 +60,12 @@ body {
 .wrapper .content {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
 }
 .wrapper .content .content-top {
   background-image: url("/components/details/image/singer.jpg");
   box-shadow: 10px 60px 50px 10px red inset;
   opacity: 0.9;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,43 +77,43 @@ body {
   width: 50%;
   margin: 0 auto;
   margin-top: 250px;
-  height: calc(100% - 250px);
+  height: 100%;
   display: flex;
   align-content: center;
+  min-height: 700px;
+}
+.wrapper .content .content-top .content-top-main .image {
+  display: flex;
+  flex: 1;
+  justify-content: center;
 }
 .wrapper .content .content-top .content-top-main .film-name {
-  height: 400px;
   display: flex;
-  width: 400px;
-  flex-wrap: wrap;
-  align-content: center;
-  padding-left: 20px;
+  flex: 1;
   font-weight: bold;
   color: whitesmoke;
+  flex-direction: column;
+  font-size: 18px;
+  padding-top: 100px;
 }
 .wrapper .content .content-top .content-top-main .rate {
-  width: 350px;
-  height: 400px;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  justify-content: center;
   flex-direction: column;
-  margin-left: 100px;
+  padding-top: 80px;
+  flex: 1;
 }
 .wrapper .content .content-top .content-top-main .rate .vote {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  margin-right: 5px;
-  display: flex;
 }
 .wrapper .content .content-bottom {
   height: 100%;
   width: 100%;
   background: #691531;
   background: linear-gradient(69deg, #691531 0%, #0c0838 40%, #741939 98%);
-  padding: 100px;
 }
 .wrapper .content .content-bottom .content-bottom-main {
   width: 50%;
@@ -127,15 +125,15 @@ body {
   font-weight: bold;
   flex-direction: column;
 }
-.wrapper .content .footer {
-  height: 100;
+.wrapper .footer {
+  height: 100%;
   width: 100%;
   background: #691531;
   background: linear-gradient(69deg, #691531 0%, #5628b5 53%, #741939 98%);
 }
-.wrapper .content .footer .footer-top {
+.wrapper .footer .footer-top {
   width: 50%;
-  height: 310px;
+  height: 100% px;
   margin: 0 auto;
   display: flex;
   font-size: 24px;
@@ -143,7 +141,7 @@ body {
   font-weight: bold;
   border-bottom: 1px solid black;
 }
-.wrapper .content .footer .footer-top .items {
+.wrapper .footer .footer-top .items {
   vertical-align: middle;
   width: 35px;
   height: 35px;
@@ -152,11 +150,11 @@ body {
   margin-right: 5px;
   background-color: 0;
 }
-.wrapper .content .footer .footer-top .items:hover {
+.wrapper .footer .footer-top .items:hover {
   cursor: pointer;
   opacity: 0.5;
 }
-.wrapper .content .footer .footer-bottom {
+.wrapper .footer .footer-bottom {
   width: 50%;
   height: 100%;
   margin: 0 auto;
