@@ -81,25 +81,46 @@ body {
                 display: flex;
                 align-content: center;
                 min-height: 700px;
-
-                
+               
                 .image {
                     display: flex;
-                    flex:1;
+                    flex: 1;
                     justify-content: center;
 
+                    .image-bg {
+                        background-image: url("/components/details/image/sddt.jpg");
+                        height: 400px;
+                        width: 280px;
+                        border-radius: 5px;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        .overlay {
+                            display: flex;
+                            height: 100%;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 50%;
+                            opacity: 0;
+                            cursor: pointer;
+                        }
+                        &:hover .overlay{
+                            opacity: 0.9;
+                            transition: 0.9s;
+                        }
+                    }
                 }
 
                 .film-name {
                     display: flex;
-                    flex:1;
+                    flex: 1;
                     font-weight: bold;
                     color: whitesmoke;
                     flex-direction: column;
                     font-size: 18px;
                     padding-top: 100px;
                 }
-               
+
                 .rate {
                     display: flex;
                     flex-wrap: wrap;
@@ -107,8 +128,8 @@ body {
                     flex-direction: column;
                     padding-top: 80px;
 
-                    flex:1;
-                    
+                    flex: 1;
+
                     .vote {
                         width: 150px;
                         height: 150px;

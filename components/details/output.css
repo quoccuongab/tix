@@ -87,6 +87,28 @@ body {
   flex: 1;
   justify-content: center;
 }
+.wrapper .content .content-top .content-top-main .image .image-bg {
+  background-image: url("/components/details/image/sddt.jpg");
+  height: 400px;
+  width: 280px;
+  border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper .content .content-top .content-top-main .image .image-bg .overlay {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  opacity: 0;
+  cursor: pointer;
+}
+.wrapper .content .content-top .content-top-main .image .image-bg:hover .overlay {
+  opacity: 0.9;
+  transition: 0.9s;
+}
 .wrapper .content .content-top .content-top-main .film-name {
   display: flex;
   flex: 1;
